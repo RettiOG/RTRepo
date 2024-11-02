@@ -1,5 +1,5 @@
 # RTRepo
 
-This is a website that explains to simple code a website.
+This is Retti's school Projekt.
 
 All rights reserved.
