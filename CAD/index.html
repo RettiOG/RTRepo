@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Einfaches 2D-CAD</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>2D CAD-Zeichenwerkzeug</h1>
+    <div class="controls">
+      <button onclick="setMode('line')">Linie</button>
+      <button onclick="setMode('rect')">Rechteck</button>
+      <button onclick="setMode('move')">Bewegen</button>
+      <button onclick="clearCanvas()">Leeren</button>
+    </div>
+  </header>
+  
+  <main>
+    <canvas id="cadCanvas" width="800" height="600"></canvas>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Einfaches CAD-Zeichenwerkzeug</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
